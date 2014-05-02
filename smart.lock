@@ -1,0 +1,20 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "autocomplete": {}
+    },
+    "packages": {
+      "autocomplete": {
+        "git": "https://github.com/mizzao/meteor-autocomplete.git",
+        "tag": "v0.4.1",
+        "commit": "cb643055b16dce1920afb83c0a7bc79e83d16f19"
+      },
+      "jquery-migrate": {
+        "git": "https://github.com/canadaduane/meteor-jquery-migrate.git",
+        "tag": "v2.0.0",
+        "commit": "636819c9de59f66410e148867b229869bb045cea"
+      }
+    }
+  }
+}
