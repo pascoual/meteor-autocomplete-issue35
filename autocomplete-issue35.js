@@ -62,7 +62,7 @@ if (Meteor.isServer) {
         Meteor.users.insert({_id: names[i]._id, username: names[i].username});
     }
     if (Test.userLists.find().count() === 0) {
-      var lists = [{_id: "1", list: "Ada"}];
+      var lists = [{_id: "1", list: "@Ada"}];
       for (var i = 0; i < lists.length; i++)
         Test.userLists.insert({_id: lists[i]._id, list: lists[i].list});
     }
